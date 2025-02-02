@@ -3,9 +3,9 @@
 	"id": "travellersdomain",
 	"version": "${version}",
 	"name": "Traveller's Domain",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Minecraft reimagined: A new adventure awaits.",
 	"authors": [
-		"Me!"
+		"CyrusCole"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.cyruscole.travellersdomain.TravellersDomainDataGenerator"
+		],
+		"client": [
+			"com.cyruscole.travellersdomain.TravellersDomainModClient"
 		]
 	},
 	"mixins": [
